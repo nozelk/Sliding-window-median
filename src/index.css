@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  /* Add other custom theme values if needed, or rely on defaults */
+}
+
+body {
+  @apply bg-slate-900 text-white;
+}
